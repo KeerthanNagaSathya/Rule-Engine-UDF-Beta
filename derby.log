@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Feb 16 15:57:36 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017f-0212-baee-00000658ded8 
+on database directory /home/keerthan/PycharmProjects/rule_engine_UDF/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@38a2c577 
+Loaded from file:/home/keerthan/BigData/spark3/spark312_hdp32/jars/derby-10.12.1.1.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
+user.dir=/home/keerthan/PycharmProjects/rule_engine_UDF
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-28-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

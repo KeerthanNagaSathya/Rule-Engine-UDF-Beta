@@ -1,0 +1,2 @@
+ with atm_window as (select id, date, txn_source_code, city, amount, is_ttr, time, sum(amount) over (partition by id, date, txn_source_code order by date) as total_amount, max(time) over (partition by id, date, txn_source_code order by date) as max_time, min(time) over (partition by id, date, txn_source_code order by date) as min_time from atm_transactions) select * from atm_window where total_amount >= 10000  AND txn_source_code LIKE 'DEPOSIT%' and city = 'sydney' order by id 
+

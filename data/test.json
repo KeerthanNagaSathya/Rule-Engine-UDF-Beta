@@ -1,0 +1,12 @@
+[{
+  "field_name": "amount",
+  "operator": ">=",
+  "field_value": 10000,
+  "join": "AND"
+},
+{
+  "field_name": "txn_source_code",
+  "operator": "=",
+  "field_value": "DEPOSIT",
+  "join": ""
+}]

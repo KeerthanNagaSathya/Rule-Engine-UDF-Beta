@@ -1,0 +1,7 @@
+session_id,id,date,txn_source_code,amount,is_ttr,time,city
+1,10,"16/01/2022","DEPOSIT",3000,false,"09:30:00.000000","sydney"
+1,10,"16/01/2022","DEPOSIT",9000,false,"09:40:00.000000","sydney"
+1,20,"16/01/2022","DEPOSIT",1000,false,"09:30:00.000000","sydney"
+3,20,"16/01/2022","DEPOSIT",10000,false,"16:30:00.000000","sydney"
+1,30,"16/01/2022","DEPOSIT",1000,false,"11:30:00.000000","sydney"
+2,40,"16/01/2022","DEPOSIT",10000,false,"12:30:00.000000","melboune"

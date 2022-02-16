@@ -1,0 +1,58 @@
+{"rules":
+[
+  {
+    "id":1,
+    "name":"ATM_TTR",
+    "description": "ATM TTR Identification",
+    "is_valid": "true",
+    "valid_from": "10/12/2021",
+    "valid_till": "10/12/2999",
+    "when":
+    [
+          {
+            "field_name": "total_amount",
+            "operator": ">=",
+            "field_value": 10000,
+            "join": "AND"
+          },
+          {
+            "field_name": "txn_source_code",
+            "operator": "LIKE",
+            "field_value": "DEPOSIT",
+            "join": ""
+          }
+    ],
+    "then":
+    [
+        {
+          "field_name": "lookup",
+          "field_value": "2"
+        }
+    ]
+  },
+  {
+    "id":2,
+    "name":"Location check",
+    "description": "ATM TTR Identification",
+    "is_valid": "true",
+    "valid_from": "10/12/2021",
+    "valid_till": "10/12/2999",
+    "when":
+    [
+          {
+            "field_name": "city",
+            "operator": "=",
+            "field_value": "sydney",
+            "join": ""
+          }
+    ],
+    "then":
+    [
+        {
+          "field_name": "is_ttr",
+          "field_value": "true"
+        }
+    ]
+  }
+]
+}
